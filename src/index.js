@@ -13,6 +13,10 @@ app.use(bodyParser.json());
 app.use(logger);
 app.use(usersRoutes);
 
+app.get("/", (req, res) => {
+  res.redirect("/users");
+});
+
 // Listen
 app.listen(PORT, () => {
   console.log(`Server running at http://${HOSTNAME}:${PORT}`);
