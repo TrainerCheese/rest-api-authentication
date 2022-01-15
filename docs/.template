@@ -1,0 +1,6 @@
+// JSON TEMPLATE FOR POST ACCESS
+{
+    "firstName": "your_first_name_here",
+    "lastName": "your_last_name_here",
+    "age": "your_age_here"
+}
